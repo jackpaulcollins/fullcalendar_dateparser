@@ -13,6 +13,9 @@ npm install fullcalendar_dateparser
 ## Usage
 
 ```javascript
+
+import DateParser from 'fullcalendar_dateparser';
+
   someInitFunction() {
     const currentDate = this.calendar.currentData.viewTitle; // the current date rendered by fullcalendar
     const [startDate, endDate] = DateParser.parse(currentDate);
