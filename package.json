@@ -1,0 +1,19 @@
+{
+  "name": "fullcalendar_dateparser",
+  "version": "1.0.3",
+  "description": "Parses fullcallendar.js display dates so they can be used to fetch resources",
+  "main": "lib/dateParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fullcalendar",
+    "date",
+    "parser"
+  ],
+  "author": "Jack Collins",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
