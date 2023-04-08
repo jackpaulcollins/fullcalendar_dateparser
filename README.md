@@ -1,6 +1,6 @@
 # FullCalendar DateParser Plugin
 
-This is a plugin for the [FullCalendar](https://fullcalendar.io/) library that allows for parsing of custom date formats.
+This is small utility library for [FullCalendar](https://fullcalendar.io/) that parses fullcalendar's display dates, allowing them to be used, typically for resource fetching.
 
 ## Installation
 
