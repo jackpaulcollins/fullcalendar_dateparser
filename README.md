@@ -77,7 +77,7 @@ fullcalendar_dateparser(currentDate);
 ```
 
 Contributing
-If you find any bugs or would like to contribute to the project, please feel free to open an issue or a pull request on the GitHub repository.
+If you find any bugs or would like to contribute to the project, please feel free to open an issue or a pull request on the [GitHub repository](https://github.com/jackpaulcollins/fullcalendar_dateparser).
 
 License
 This plugin is licensed under the MIT License.

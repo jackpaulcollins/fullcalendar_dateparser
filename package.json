@@ -1,6 +1,6 @@
 {
   "name": "fullcalendar_dateparser",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Parses fullcallendar.js display dates so they can be used to fetch resources",
   "main": "lib/dateParser.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo.git"
+    "url": "https://github.com/jackpaulcollins/fullcalendar_dateparser"
   },
   "keywords": [
     "fullcalendar",
