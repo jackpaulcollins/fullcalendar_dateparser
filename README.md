@@ -48,7 +48,7 @@ Two date objects representing the same date (single day view, same start/end)
 const currentDate = this.calendar.currentData.viewTitle;
 console.log(currentDate)
 // Returns: "April 7, 2023"
-fullcalendar_dateparser(currentDate);
+DateParser.parse(currentDate);
 // Returns: ["Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)"]
 ```
 
@@ -60,7 +60,7 @@ Two date objects separated by a range ("Dec 31, 2023 – Jan 6, 2024")
 const currentDate = this.calendar.currentData.viewTitle;
 console.log(currentDate)
 // Returns: "Dec 31, 2023 – Jan 6, 2024"
-fullcalendar_dateparser(currentDate);
+DateParser.parse(currentDate);
 // Returns: ["Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)"]
 ```
 
@@ -72,7 +72,7 @@ a solitary month
 const currentDate = this.calendar.currentData.viewTitle;
 console.log(currentDate)
 // Returns: "April 2023"
-fullcalendar_dateparser(currentDate);
+DateParser.parse(currentDate);
 // Returns: ["Fri Apr 01 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Sun Apr 30 2023 00:00:00 GMT-0700 (Pacific Daylight Time)"]
 ```
 
