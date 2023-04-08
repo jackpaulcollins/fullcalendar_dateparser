@@ -1,6 +1,6 @@
-# FullCalendar DateParser Plugin
+# FullCalendar DateParser
 
-This is small utility library for [FullCalendar](https://fullcalendar.io/) that parses fullcalendar's display dates, allowing them to be used, typically for resource fetching.
+FullCalendar DateParser is a small utility library for [FullCalendar](https://fullcalendar.io/) that parses fullcalendar's display dates, allowing them to be used, typically for resource fetching.
 
 ## Installation
 
@@ -76,8 +76,8 @@ fullcalendar_dateparser(currentDate);
 // Returns: ["Fri Apr 01 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Sun Apr 30 2023 00:00:00 GMT-0700 (Pacific Daylight Time)"]
 ```
 
-Contributing
+### Contributing
 If you find any bugs or would like to contribute to the project, please feel free to open an issue or a pull request on the [GitHub repository](https://github.com/jackpaulcollins/fullcalendar_dateparser).
 
-License
+### License
 This plugin is licensed under the MIT License.
