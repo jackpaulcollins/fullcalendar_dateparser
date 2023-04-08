@@ -61,7 +61,7 @@ const currentDate = this.calendar.currentData.viewTitle;
 console.log(currentDate)
 // Returns: "Dec 31, 2023 – Jan 6, 2024"
 DateParser.parse(currentDate);
-// Returns: ["Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Fri Apr 07 2023 00:00:00 GMT-0700 (Pacific Daylight Time)"]
+// Returns: ["Sun Dec 31 2023 00:00:00 GMT-0700 (Pacific Daylight Time)", "Sat Jan 06 2024 00:00:00 GMT-0700 (Pacific Daylight Time)"]
 ```
 
 ### Example C

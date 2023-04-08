@@ -1,6 +1,6 @@
 {
   "name": "fullcalendar_dateparser",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Parses fullcallendar.js display dates so they can be used to fetch resources",
   "main": "lib/dateParser.js",
   "scripts": {
